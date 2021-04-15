@@ -1,0 +1,10 @@
+        h1 {font-family: sans-serif;}
+        p {
+            font-weight: 600;
+            font-weight: 3em;
+        }
+        body {font-size: 16px;}
+        #ama {background-color: yellow;}
+        #ver {background-color: red;}
+        #mar {background-color: brown;}
+        .centro {text-align-last: center;}
