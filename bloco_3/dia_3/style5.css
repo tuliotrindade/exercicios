@@ -1,0 +1,51 @@
+ol 
+{
+    background-color: yellow;
+}
+
+.par
+{
+    color: green;
+}
+
+.primo
+{
+    text-transform: uppercase;
+}
+
+.header
+{
+    color: red;
+}
+
+li
+{
+    font-size: 20px;
+}
+
+h1
+{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.it
+{
+    font-weight: bolder;
+}
+
+.azul
+{
+    color: blue;
+}
+
+.java
+{
+    background-color: palevioletred;
+}
+
+lista:hover 
+{
+    font-weight: bolder;
+    color: white;
+}
