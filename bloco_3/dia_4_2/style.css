@@ -1,0 +1,55 @@
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.li1 {
+    display: inline-block;
+    font-size: 20px;
+    width: 33%;
+    
+}
+
+nav {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+#ul1 {
+    border: 1px solid black;
+}
+
+#img1 {
+    width: 300px;
+    display: block;
+}
+
+#img2 {
+    width: 300px;
+    display: block;
+}
+article {
+    width: 80%;
+    margin: 0%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+aside {
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid black;  
+    margin-left: 20px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
