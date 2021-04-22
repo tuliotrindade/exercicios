@@ -1,6 +1,11 @@
 header {
     text-align: center;
     font-size: 30px;
+    background-color: white;
+}
+
+body {
+    background-color: black;
 }
 
 .li1 {
@@ -11,10 +16,8 @@ header {
 }
 
 nav {
-    margin-top: 5%;
-    margin-bottom: 5%;
     text-align: center;
-    
+    background-color: white;
 }
 
 #ul1 {
@@ -22,8 +25,8 @@ nav {
 }
 
 #img1 {
-    width: 300px;
-    display: block;
+    width: 20%;
+    float: right;
 }
 
 #img2 {
@@ -35,6 +38,7 @@ article {
     margin: 0%;
     display: inline-block;
     border: 1px solid black;
+    background-color: aquamarine;
 }
 
 aside {
@@ -44,6 +48,7 @@ aside {
     position: absolute;
     border: 1px solid black;  
     margin-left: 20px; 
+    background-color: white;
 }
 
 h1 {
@@ -52,4 +57,21 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+#infog {
+    
+    display: inline-block;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+#caçadas #img1 {
+    display: inline;
+}
+
+#caçadas {
+    width: 60%;
+    margin-right: 10px;
 }
