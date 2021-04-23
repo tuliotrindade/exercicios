@@ -1,4 +1,4 @@
-let bruto=6000;
+let bruto=2600;
 let liquido;
 let base;
 let inss;
