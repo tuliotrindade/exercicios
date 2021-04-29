@@ -49,13 +49,11 @@ else{
     console.log(contador);
 }
 */
-/*
-q7
-let comparador=numbers[1];
+
+let comparador=numbers[0];
 for(let i=0;i<numbers.length;i+=1){
     if(numbers[i]<comparador){
         comparador=numbers[i];
     }
 }
 console.log(comparador);
-*/
