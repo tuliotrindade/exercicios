@@ -1,0 +1,42 @@
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+    margin: 20px;
+}
+article h1{
+    text-align: center;
+}
+footer h3{
+    text-align: center;
+}
+header p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+header nav{
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: large;
+}
+.aside-one {
+    margin-top: 20px;
+    text-align: center;
+}
+.aside-one ul {
+    list-style-type: none;
+    padding: 0;
+}
+.aside-two ul{
+    list-style-type: none;
+    padding: 0;
+}
