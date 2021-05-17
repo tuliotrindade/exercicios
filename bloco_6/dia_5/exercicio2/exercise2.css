@@ -1,5 +1,4 @@
 
-
 html {
   box-sizing: border-box;
 }
@@ -40,3 +39,10 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+    aside{
+        display:flex;
+        justify-content: center;
+    }
+    
