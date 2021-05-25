@@ -12,3 +12,5 @@ const longestWord = (n) => {
 
     }
 console.log(longestWord("Antônio foi no banheiro e não sabemoooooooos o que aconteceuuuuuuuuuuuuuuuuu"))
+
+const fac = (n) => n>0 ? n*fac(n-1) : 1;
