@@ -1,4 +1,4 @@
-/* const assert = require('assert');
+ const assert = require('assert');
 
 function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
@@ -10,8 +10,8 @@ function sum(a, b) {
 assert.strictEqual(sum(4,5),9, 'asdaddada')
 assert.strictEqual(sum(0,0),0, 'asdaddada')
 assert.strictEqual(sum(4,'5'),, 'asdaddada')
-// implemente seus testes aqui */
-/* const assert = require('assert');
+// implemente seus testes aqui 
+ const assert = require('assert');
 
 function myRemove(arr, item) {
   let newArr = [];
@@ -27,9 +27,9 @@ assert.deepEqual(myRemove([1, 2, 3, 4],4),[1, 2, 3], 'asdaddada')
 assert.notStrictEqual(myRemove([1, 2, 3, 4],4),[1, 2, 3, 4], 'asdaddada')
 assert.deepEqual(myRemove([1, 2, 3, 4], 5), [1, 2, 3, 4], 'dsaskalhdkhdsakdas')
 
-// implemente seus testes aqui */
+// implemente seus testes aqui 
 
-/* const assert = require('assert');
+ const assert = require('assert');
 
 function myRemoveWithoutCopy(arr, item) {
   for (let index = 0, len = arr.length; index < len; index += 1) {
@@ -47,7 +47,7 @@ assert.deepEqual(myRemoveWithoutCopy([1, 2, 3, 4],4),[1, 2, 3], 'asdaddada')
 assert.notDeepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2, 3, 4], 'aaaaaaaaaa')
 assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 5),[1, 2, 3, 4], 'bbbbbbbbbbbb') */
 
-/* const assert = require('assert');
+const assert = require('assert');
 
 function myFizzBuzz(num) {
   if (typeof num !== 'number') return false;
@@ -63,7 +63,7 @@ assert.equal(myFizzBuzz(3),'fizz', 'wwwwwwww')
 assert.equal(myFizzBuzz(5),'buzz', 'wwwwwwww')
 assert.equal(myFizzBuzz('aaa'),false, 'wwwwwswww') */
 
-/* const assert = require('assert');
+const assert = require('assert');
 
 const obj1 = {
   title: 'My Title',
@@ -82,7 +82,7 @@ const obj3 = {
 
 assert.deepStrictEqual(obj1,obj2,'aaaaaaaaaaaaa') */
 
-/* const assert = require('assert');
+ const assert = require('assert');
 // escreva a função addOne aqui
 
 const myArray = [31, 57, 12, 5];
@@ -103,7 +103,7 @@ assert.deepStrictEqual(output, expected);
 assert.deepStrictEqual(myArray, unchanged);
  */
 
-/* const assert = require('assert');
+const assert = require('assert');
 function wordLengths(words){
     for(const i in words){
         words[i]=words[i].length
@@ -116,9 +116,9 @@ const expected = [3, 6, 10, 5];
 
 assert.strictEqual(typeof wordLengths, 'function');
 const output = wordLengths(words);
-assert.deepStrictEqual(output, expected); */
+assert.deepStrictEqual(output, expected); 
 
-/* const assert = require('assert');
+ const assert = require('assert');
 function sumAllNumbers(numbers){
     let soma=0;
     for(const i in numbers){
@@ -133,9 +133,8 @@ const output = sumAllNumbers(numbers);
 
 assert.strictEqual(typeof sumAllNumbers, 'function');
 assert.strictEqual(output, expected); 
- */
 
-/* const assert = require('assert');
+ const assert = require('assert');
 function findTheNeedle(words, x){
     let posicao;
     for (let i in words){
@@ -162,9 +161,9 @@ assert.strictEqual(output, expected);
 words = ['plant', 'shelf', 'arrow', 'bird'];
 expected = -1;
 output = findTheNeedle(words, 'plat');
-assert.strictEqual(output, expected); */
+assert.strictEqual(output, expected); 
 
-/* const greetPeople = (people) => {
+ const greetPeople = (people) => {
   let greeting = 'Hello ';
 
   for (const person in people) {
@@ -177,7 +176,7 @@ const parameter = ['Irina', 'Ashleigh', 'Elsa'];
 const result = ['Hello Irina', 'Hello Ashleigh', 'Hello Elsa'];
 console.log(greetPeople(['Irina', 'Ashleigh', 'Elsa'])) */
 
-/* const removeVowels = (word) => {
+ const removeVowels = (word) => {
   const characters = word.split('');
   const results=[];
   let c=1;
@@ -201,9 +200,9 @@ console.log(greetPeople(['Irina', 'Ashleigh', 'Elsa'])) */
 
 const parameter = 'Dayane';
 const result = 'D1y2n3';
-console.log(removeVowels(parameter)) */
+console.log(removeVowels(parameter)) 
 
-/* const greaterThanTen = (array) => {
+ const greaterThanTen = (array) => {
   let results = [];
   for (let index = 0; index < array.length; index += 1) {
     if (array[index] > 10) {
@@ -215,7 +214,7 @@ console.log(removeVowels(parameter)) */
 
 const parameter = [4, 10, 32, 9, 21];
 const result = [32, 21];
-console.log(greaterThanTen(parameter)) */
+console.log(greaterThanTen(parameter)) 
 
 function secondThirdSmallest(array) {
     let results = []
